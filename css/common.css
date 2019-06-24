@@ -1,0 +1,4 @@
+header { width:100%; background:#fff; padding:20px; }
+#logo { width:100px; display:inline-block; position:relative; }
+#logo img { display:block; width:100%; }
+.wrap { max-width:1200px; margin:0 auto; }
