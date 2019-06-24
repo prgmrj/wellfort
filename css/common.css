@@ -77,9 +77,9 @@ h2 { font-size:16px; margin:0; display:block; font-weight:normal; margin-bottom:
 .qnaform { display:block; font-size:0; margin-bottom:15px; }
 .qnaform div { margin-bottom:7px; }
 .qnaform div:LAST-CHILD { margin-bottom:0; }
-.contactqna { display:inline-block; width:20%; font-size:14px; vertical-align:top; line-height:20px; }
+.contactqna { display:inline-block; width:23%; font-size:14px; vertical-align:top; line-height:20px; }
 .qna-input { display:inline-block; width:70%; padding:0 2px; line-height:20px; font-size:14px; vertical-align:top; }
-.contactbtn { display:block; width:90%; padding:10px; border:1px solid #ddd; text-align:center; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.contactbtn { display:block; width:93%; padding:10px; border:1px solid #ddd; text-align:center; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
 .contactbtn:hover { background:rgba(0,0,0,.2); }
 .newsitem { display:block; position:relative; width:90%; padding-bottom:2px; border-bottom:1px solid rgba(255,255,255,.2); }
 .newsitem:LAST-CHILD { border-bottom:0; }
@@ -97,4 +97,12 @@ footer p { margin-top:3px; }
 	.gnb { display:none; }
 	.busiitem { width:49%; }
 	.busiitem:NTH-CHILD(2n) { margin-right:0; }
+	.contactcol { width:49%; margin-bottom:30px; }
+	.contactcol:NTH-CHILD(2n) { margin-right:0; }
+}
+
+@media screen and (max-width:480px){
+	.gnb { display:none; }
+	.busiitem { width:100%; margin-right:0; display:block; }
+	.contactcol { width:100%; margin-right:0; display:block; margin-bottom:30px; }
 }
