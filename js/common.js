@@ -10,7 +10,7 @@ function menuopen(e){
 }
 
 function gnbstyle(){
-	if ($(document).scrollTop() > 10)
+	if ($(document).scrollTop() > 40)
 		$('header').addClass('_scrolled');
 	else
 		$('header').removeClass('_scrolled');
