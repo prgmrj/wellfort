@@ -1,4 +1,12 @@
-header { width:100%; background:#fff; padding:20px; }
-#logo { width:100px; display:inline-block; position:relative; }
+html { color:#444; }
+header { width:100%; background:#fff; padding:20px; position:fixed; overflow:hidden; height:100px; transition:0.25s all ease-in-out; -webkit-transition:0.25s all ease-in-out; border-bottom:1px solid rgba(0,0,0,.1); }
+header._opened { height:360px; }
+.wrap { max-width:1200px; margin:0 auto; position:relative; }
+#logo { width:90px; display:inline-block; position:relative; vertical-align:middle; }
 #logo img { display:block; width:100%; }
-.wrap { max-width:1200px; margin:0 auto; }
+#gnb { display:inline-block; position:absolute; right:20px; top:10px; font-size:0; }
+.gnb-a1 { display:inline-block; width:120px; padding:30px 0 35px; text-align:center; vertical-align:middle; font-size:15px; font-weight:bold; }
+.gnb-dp2 { display:block; }
+.gnb-dp2-col { display:inline-block; font-size:14px; width:120px; vertical-align:top; }
+.gnb-a2 { display:block; width:100%; padding:10px; text-align:center; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.gnb-a2:hover { background:#eee; }
