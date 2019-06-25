@@ -93,6 +93,13 @@ footer .wrap { padding:20px; }
 footer p { margin-top:3px; }
 .ftitle { font-size:13px; margin-top:0; }
 
+.pagetemplate1 .wrap { text-align:center; padding:60px 20px; }
+.pagetemplate1 h1 { margin-bottom:40px; }
+.navpage { display:block; font-size:0; position:relative; }
+.lnb { display:inline-block; width:20%; font-size:16px; vertical-align:top; text-align:left; }
+.lnbtitle { font-weight:bold; }
+.sidepage { display:inline-block; width:80%; font-size:16px; vertical-align:top; }
+
 @media screen and (max-width:870px){
 	.gnb { display:none; }
 	.busiitem { width:49%; }
