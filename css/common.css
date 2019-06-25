@@ -70,7 +70,7 @@ h2 { font-size:16px; margin:0; display:block; font-weight:normal; margin-bottom:
 .partneritem img { width:100%; display:block; }
 
 .contact .wrap { padding:25px 20px; color:#eee; font-size:0; }
-.contactcol { width:23.5%; margin-right:2%; display:inline-block; vertical-align:top; font-size:14px; }
+.contactcol { width:23.5%; margin-right:2%; display:inline-block; vertical-align:top; font-size:14px; position:relative; }
 .contactcol:LAST-CHILD { margin-right:0; }
 .contacttitle { font-size:16px; margin-bottom:18px; color:#fff; }
 .contactcont { line-height:24px; padding-right:10px; }
@@ -79,14 +79,15 @@ h2 { font-size:16px; margin:0; display:block; font-weight:normal; margin-bottom:
 .qnaform div:LAST-CHILD { margin-bottom:0; }
 .contactqna { display:inline-block; width:23%; font-size:14px; vertical-align:top; line-height:20px; }
 .qna-input { display:inline-block; width:70%; padding:0 2px; line-height:20px; font-size:14px; vertical-align:top; }
-.contactbtn { display:block; width:93%; padding:10px; border:1px solid #ddd; text-align:center; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.contactbtn { display:block; width:70%; padding:10px; border:1px solid #ddd; text-align:center; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; margin-left:23%; }
 .contactbtn:hover { background:rgba(0,0,0,.2); }
-.newsitem { display:block; position:relative; width:90%; padding-bottom:2px; border-bottom:1px solid rgba(255,255,255,.2); }
+.newsitem { display:block; position:relative; width:90%; padding-bottom:2px; border-bottom:1px dashed rgba(255,255,255,.2); margin-bottom:4px; }
 .newsitem:LAST-CHILD { border-bottom:0; }
 .newsitemtitle { display:block; width:100%; padding-right:40px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; line-height:24px; }
 .newsitemdate { display:inline-block; position:absolute; top:6px; right:0; font-size:11px; }
 .sns { display:block; margin-bottom:30px; }
 .snsicon { width:40px; margin-right:10px; display:inline-block; vertical-align:top; }
+.newsmore { display:inline-block; position:absolute; top:2px; right:27px; font-size:12px; color:#bbb; }
 
 footer { background:rgba(0,0,0,.8); color:#fff; font-size:12px; line-height:20px; }
 footer .wrap { padding:20px; }
