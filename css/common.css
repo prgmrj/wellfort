@@ -32,7 +32,7 @@ article { padding-top:100px; }
 header._opened .bar2 { width:20px; opacity:1; }
 .gnb-dp2-col:hover .bar { width:20px; opacity:1; }
 .business { background:#e4d2aa; }
-.contact { background:#666; }
+.contact { background:#555; }
 img { max-width:100%; }
 .mainvid { position:absolute; top:40px; right:20px; }
 .slider .wrap {  }
@@ -85,21 +85,25 @@ h2 { font-size:16px; margin:0; display:block; font-weight:normal; margin-bottom:
 .newsitem:LAST-CHILD { border-bottom:0; }
 .newsitemtitle { display:block; width:100%; padding-right:40px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; line-height:24px; }
 .newsitemdate { display:inline-block; position:absolute; top:6px; right:0; font-size:11px; }
-.sns { display:block; margin-bottom:30px; }
+.sns { display:block; margin-bottom:40px; }
 .snsicon { width:40px; margin-right:10px; display:inline-block; vertical-align:top; }
 .newsmore { display:inline-block; position:absolute; top:2px; right:27px; font-size:12px; color:#bbb; }
 
-footer { background:rgba(0,0,0,.8); color:#fff; font-size:12px; line-height:20px; }
-footer .wrap { padding:20px; }
-footer p { margin-top:3px; }
-.ftitle { font-size:13px; margin-top:0; }
+footer { background:#222; color:#eee; font-size:12px; line-height:16px; }
+footer .wrap { padding:10px 20px; }
+footer p { margin-top:2px; }
+.ftitle { font-size:12px; margin-top:0; }
 
-.pagetemplate1 .wrap { text-align:center; padding:60px 20px; }
+.pagetemplate1 .wrap { text-align:center; padding:60px 20px; min-height:800px; }
 .pagetemplate1 h1 { margin-bottom:40px; }
-.navpage { display:block; font-size:0; position:relative; }
-.lnb { display:inline-block; width:20%; font-size:16px; vertical-align:top; text-align:left; }
-.lnbtitle { font-weight:bold; }
-.sidepage { display:inline-block; width:80%; font-size:16px; vertical-align:top; }
+.navpage { display:block; font-size:0; position:relative; padding-left:200px; width:100%; color:#fff; }
+.lnb { display:inline-block; width:180px; font-size:16px; vertical-align:top; text-align:left; position:absolute; top:0; left:0; background:#555; }
+.lnbtitle { padding:20px; display:block; border-bottom:1px solid #ddd; }
+.lnbcont { line-height:22px; padding:10px 20px; display:block; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.lnbcont:hover { background:rgba(255,255,255,.2); }
+.lnbcont._active { background:rgba(255,255,255,.2); }
+
+.sidepage { display:block; width:100%; font-size:16px; color:#333; }
 
 @media screen and (max-width:870px){
 	.gnb { display:none; }
