@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 html, body, div, p, span, em, b, strong, a, ul, ol, li, pre, code, samp, abbr, header, nav, article, section, aside, footer, hr,
-img, audio, video, legend, table, thead, tbody, tfoot, tr, th, td, fieldset, button, input, select, textarea, :after, :before { margin:0; padding:0; box-sizing:border-box; -webkit-box-sizing:border-box; font:inherit; }
+img, audio, video, legend, table, thead, tbody, tfoot, tr, th, td, fieldset, button, input, select, textarea, :after, :before { margin:0; padding:0; box-sizing:border-box; -webkit-box-sizing:border-box; font:inherit; outline:none; }
 header, nav, article, section, aside, footer { display:block; }
 html { line-height:1.15; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; font-family:'Nanum Gothic',sans-serif; }
 hr { height:0; overflow:visible; }

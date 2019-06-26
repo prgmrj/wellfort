@@ -37,7 +37,7 @@ img { max-width:100%; }
 .mainvid { position:absolute; top:40px; right:20px; }
 .slider .wrap {  }
 .slicks { width:100%; }
-.slickitem { width:100%; outline:0; }
+.slickitem { width:100%; }
 .slickitem img { width:100%; }
 
 /*  */
@@ -104,6 +104,38 @@ footer p { margin-top:2px; }
 .lnbcont._active { background:rgba(255,255,255,.2); }
 
 .sidepage { display:block; width:100%; font-size:16px; color:#333; }
+.map { display:block; max-width:800px; height:355px; margin:0 auto; border:1px solid #ddd; margin-bottom:40px; text-align:left; }
+.loca { display:block; max-width:800px; margin:0 auto; text-align:left; }
+.loca p { line-height:30px; }
+
+.bbs { display:block; width:100%; position:relative; max-width:900px; margin:0 auto; }
+.bbstitle, .bbsitem { display:block; width:100%; font-size:0; }
+.bbstitle span, .bbsitem span { display:inline-block; font-size:16px; line-height:24px; vertical-align:top; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.bbstitle { background:#555; color:#fff; }
+.bbsitem { border-bottom:1px solid #ddd; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.bbsitem:hover { background:rgba(0,0,0,.05); }
+.bnumb { width:10%; padding:10px; }
+.btitle { width:60%; padding:10px; }
+.bbsitem .btitle { text-align:left; padding:10px; }
+.bauth { width:15%; padding:10px; }
+.bdate { width:15%; padding:10px; }
+.bbspages { display:block; width:100%; margin-top:20px; }
+.bbspagenumb { display:inline-block; margin:0 5px; padding:5px; }
+.bbspagenumb._active { font-weight:bold; }
+
+.bbs.bqna .btitle { width:50%; }
+.bbs.bqna .bansw { width:10%; padding:10px; }
+.bbs.bqna .bansw._end { color:#c7822d; }
+.writebtn { display:inline-block; border:1px solid #ddd; padding:10px; position:absolute; top:510px; right:0; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.writebtn:hover { background:rgba(0,0,0,.05); }
+
+.contactpage { display:block; max-width:800px; margin:0 auto; }
+.contactp-item { display:block; padding-left:100px; position:relative; margin-bottom:20px; text-align:left; }
+.contactp-title { display:inline-block; width:100px; position:absolute; top:0; left:0; padding:10px; text-align:left; vertical-align:top; }
+.contactp-input { display:inline-block; width:100%; padding:10px 0; border:0; border-bottom:1px solid #c6b56d; vertical-align:top; }
+.contactp-textbox { display:inline-block; width:100%; padding:10px 0; vertical-align:top; border:0; border-bottom:1px solid #c6b56d; }
+.contactp-btn { display:inline-block; width:120px; margin-top:20px; border:1px solid #ddd; font-size:16px; padding:10px; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
+.contactp-btn:hover { background:rgba(0,0,0,.05); }
 
 @media screen and (max-width:870px){
 	.gnb { display:none; }
