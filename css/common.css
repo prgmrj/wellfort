@@ -99,9 +99,12 @@ footer p { margin-top:2px; }
 .navpage { display:block; font-size:0; position:relative; padding-left:200px; width:100%; color:#fff; }
 .lnb { display:inline-block; width:180px; font-size:16px; vertical-align:top; text-align:left; position:absolute; top:0; left:0; background:#555; }
 .lnbtitle { padding:20px; display:block; border-bottom:1px solid #ddd; }
+.lnbsub { padding:10px 20px; display:block; background:#444; }
 .lnbcont { line-height:22px; padding:10px 20px; display:block; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
 .lnbcont:hover { background:rgba(255,255,255,.2); }
 .lnbcont._active { background:rgba(255,255,255,.2); }
+
+.lnb._prod .lnbcont { padding-left:35px; }
 
 .sidepage { display:block; width:100%; font-size:16px; color:#333; }
 .map { display:block; max-width:800px; height:355px; margin:0 auto; border:1px solid #ddd; margin-bottom:40px; text-align:left; }
