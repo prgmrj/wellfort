@@ -10,7 +10,7 @@ abbr[title] { text-decoration:underline; text-decoration:underline dotted; }
 b, strong { font-weight:bolder; }
 audio, video { display:inline-block; }
 audio:not([controls]) { display:none; height:0; }
-img { border-style:none; }
+img { border-style:none; max-width:100%; }
 svg:not(:root) { overflow:hidden; }
 button { overflow:visible; text-transform:none; }
 button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance:button; }
