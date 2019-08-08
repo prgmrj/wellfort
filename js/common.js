@@ -6,6 +6,16 @@ $(document)
 	.on('click', '.mdp1', opendp2)
 	.on('click', '.mdp2._back', todp1);
 
+$(window).on('load resize', resizeSlide);
+
+function resizeSlide(){	
+	if ($('.slickitem img').height() >= 800){
+		var margin = (parseInt($('.slickitem img').height())-800)/2;
+		$('.slickitem img').css('top', -1*margin);
+	}
+	console.log($('.slickitem').height())
+}
+
 function menuopen(e){
 	if (e.type == 'mouseenter')
 		$('header').addClass('_opened');
