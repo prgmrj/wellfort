@@ -99,7 +99,7 @@ footer p { margin-top:2px; }
 .navpage { display:block; font-size:0; position:relative; padding-left:200px; width:100%; /* color:#fff; */ }
 .lnb { display:inline-block; width:180px; font-size:16px; vertical-align:top; text-align:left; position:absolute; top:0; left:0; /* background:#555; */ }
 .lnbtitle { padding:15px; display:block; border-bottom:1px solid #666; }
-.lnbsub { padding:10px 20px; display:block; background:#444; }
+.lnbsub { padding:10px 20px; display:block; background: #fff; border-bottom: 1px solid #bbb; }
 .lnbcont { line-height:22px; padding:10px 20px; display:block; border-bottom:1px solid #ddd; transition:0.15s all ease-in-out; -webkit-transition:0.15s all ease-in-out; }
 .lnbcont:hover { background:rgba(0,0,0,.05); }
 .lnbcont._active { background:rgba(0,0,0,.05); }
